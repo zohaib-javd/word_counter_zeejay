@@ -1,17 +1,20 @@
 {
   "name": "word_counter_zeejay",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.5",
+  "description": "A simple CLI tool to count words in a sentence.",
   "main": "main.js",
   "type": "module",
-  "publishConfig": {
-    "access": "public"
+  "bin": {
+    "word_counter_zeejay": "main.js"
   },
-  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "word-count",
+    "inquirer"
+  ],
   "author": "Zohaib Javed",
   "license": "ISC",
   "dependencies": {
