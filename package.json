@@ -1,6 +1,6 @@
 {
   "name": "word_counter_zeejay",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple CLI tool to count words in a sentence.",
   "main": "main.js",
   "type": "module",
